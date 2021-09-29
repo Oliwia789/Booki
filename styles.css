@@ -180,3 +180,195 @@ input
     border-radius: 25px;
     margin-right: 5px;
 }
+#section_hebergements
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#hebergements
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex: 2;
+    height: 650px;
+    margin-right: 20px;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#colonne1_hebergements
+{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#colonne2_hebergements
+{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.presentation_hebergement
+{
+    width: 30%;
+    height: auto;
+    background-color: white;
+    padding: 1%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.presentation_hebergement:hover
+{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+#image_hebergement1
+{
+    background-image: url("images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+#image_hebergement2
+{
+    background-image: url("images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+#image_hebergement3
+{
+    background-image: url("images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+#image_hebergement4
+{
+    background-image: url("images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+#image_hebergement5
+{
+    background-image: url("images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+#image_hebergement6
+{
+    background-image: url("images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+.information_hebergement
+{
+    width: 90%;
+}
+.etoile_bleu
+{
+    color: #0065fc;
+}
+.etoile_grise
+{
+    color: #f2f2f2;
+}
+#afficher_plus
+{
+    font-weight: bold;
+}
+#populaires
+{
+    flex: 1;
+    height: 650px;
+    margin-left: 20px;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #f2f2f2;
+}
+#titre_populaire
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+#hebergements_populaires
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.presentation_hebergement_populaire
+{
+    margin-bottom: 22px;
+    background-color: white;
+    height: auto;
+    padding: 1% 0 1% 1%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.presentation_hebergement_populaire:hover
+{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+#image_populaire1
+{
+    background-image: url("images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 35%;
+    height: 160px;
+    border-radius: 15px 0 0 15px;
+}
+#image_populaire2
+{
+    background-image: url("images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 35%;
+    height: 160px;
+    border-radius: 15px 0 0 15px;
+}
+#image_populaire3
+{
+    background-image: url("images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 35%;
+    height: 160px;
+    border-radius: 15px 0 0 15px;
+}
+.information_hebergement_populaire
+{
+    width: 60%;
+    padding-left: 5%;
+}
