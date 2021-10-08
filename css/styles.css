@@ -240,6 +240,7 @@ input
     border-radius: 20px;
     display: block;
     margin: 0px auto;
+    line-height: 12px;
 }
 .presentation_hebergement:hover
 {
@@ -248,18 +249,25 @@ input
 }
 .image_hebergement
 {
-    height: 145px;
+    height: 105px;
     position: relative;
     overflow: hidden;
+    margin: 5px 5px 0px 5px;
+    border-radius: 15px 15px 0 0;
 }
 .image_hebergement img
 {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    /*
     width: 70%;
     position: absolute;
     top: 50%;
     left: 50%;
     border-radius: 15px 15px 0 0;
     transform: translate(-50%, -50%);
+    */
 }
 .information_hebergement
 {
