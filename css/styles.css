@@ -270,7 +270,11 @@ input
 {
     font-weight: bold;
 }
-
+.presentation_lien_hebergement
+{
+    text-decoration: none;
+    color: black;
+}
 
 /* SECTION POPULAIRES */
 
@@ -315,7 +319,7 @@ input
 .image_populaire
 {
     height: 100%;
-    width: 160px;
+    width: 60%;
     position: relative;
     overflow: hidden;
     border-radius: 15px 0 0 15px;    
@@ -336,9 +340,16 @@ input
 {
     margin-bottom: 40px;
 }
-.etoiles-populaire
+.etoiles_populaire
 {
     margin-top: 20px;
+}
+.presentation_lien_populaire
+{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    width: 100%;
 }
 
 /* SECTION ACTIVITES */
@@ -427,6 +438,12 @@ input
 {
     padding-left: 5%;
     width: 95%;
+}
+.presentation_lien_activite
+{
+    text-decoration: none;
+    color: black;
+    width: 100%;
 }
 
 /* SECTION FOOTER */
@@ -660,14 +677,18 @@ input
     width: 85%;
     margin: 17px 15px 17px 15px;
 }
-.image_activite_grande
+.image_activite_grande, .image_activite_moyenne, .image_activite_petite, .image_activite_moyenne_2
 {
-    height: auto;
+    height: 70%;
     width: 100%;
 }
 .derniere_image_bloc_2
 {
     margin-top: 15px;
+}
+.presentation_lien_activite
+{
+    height: 100%;
 }
 
 /* SECTION FOOTER */
