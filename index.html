@@ -27,17 +27,17 @@
 
     	<section id="section_recherche">
     		<div>
-    			<h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+    			<h1 id="titre">Trouvez votre hébergement pour des vacances de rêve</h1>
     		    <p>En plein centre ville ou en pleine nature</p>
     		</div>
-    		<div id="recherche">
+    		<form id="recherche">
     			<i id="logo_recherche" class="fas fa-map-marker-alt"></i>
     			<input type="search" value="Marseille, France"/>
     			<div id="bouton_recherche">
                     <div class="texte">Rechercher</div>
                     <i class="fas fa-search"></i>
                 </div>
-    		</div>
+    		</form>
     		<div id="filtres">
     			<div id="titre_filtres">Filtres</div>
                 <div class="parties_filtres">
@@ -247,7 +247,10 @@
                 <div class="activite_portrait">
                     <a href="#" class="presentation_lien_activite">
                         <div class="image_activite_grande">
-                            <img src="css/images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Image du Vieux Port"/>
+                            <img src="css/images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" 
+                            srcset="css/images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg 468w,
+                            css/images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg 936w"
+                            alt="Image du Vieux Port"/>
                         </div>
                         <h3 class="titre_activite">Vieux Port</h3>
                     </a>
@@ -273,7 +276,10 @@
                 <div class="activite_portrait">
                     <a href="#" class="presentation_lien_activite">
                         <div class="image_activite_grande">
-                            <img src="css/images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Image du Parc National des Calanques"/>
+                            <img src="css/images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
+                            srcset="css/images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg 402w,
+                            css/images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg 803w" 
+                            alt="Image du Parc National des Calanques"/>
                         </div>
                         <h3 class="titre_activite">Parc National des Calanques</h3>
                     </a>
@@ -299,6 +305,7 @@
             </div>
         </section>
         <footer>
+            <div id="parties_footer">
             <div id="footer_part_1">
                 <h2>A propos</h2>
                 <a href="#" class="lien_footer">Fonctionnement du site</a>
@@ -314,6 +321,7 @@
                 <h2>Assistance</h2>
                 <a href="#" class="lien_footer">Centre d'aide</a>
                 <a href="#" class="lien_footer">Nous contacter</a>
+            </div>
             </div>
         </footer>
     </body>

@@ -450,29 +450,29 @@ input
 
 footer
 {
-    height: 300px;
-    margin-top: 100px;
+    margin-top: 5%;
     background-color: #f2f2f2;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+#parties_footer
+{
     display: flex;
-    align-items: center;
 }
 #footer_part_1
 {
-    height: 200px;
     margin-left: 5%;
     display: flex;
     flex-direction: column;
 }
 #footer_part_2
 {
-    height: 200px;
     margin-left: 15%;
     display: flex;
     flex-direction: column;
 }
 #footer_part_3
 {
-    height: 200px;
     margin-left: 15%;
     display: flex;
     flex-direction: column;
@@ -578,6 +578,10 @@ header
 
 /* SECTION RECHERCHE */
 
+#titre
+{
+    font-size: 1.5em;
+}
 #recherche
 {
     width: 100%;   
@@ -695,18 +699,18 @@ input
 
 footer
 {
-    padding-left: 30px;
-    padding-right: 30px;
-    display: block;
-    margin-top: 25px;
-    height: 850px;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin: 10% 10% 0 10%
+}
+#parties_footer
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 #footer_part_1, #footer_part_2, #footer_part_3
 {
-    height: auto;
-    margin-left: 0;
+    width: 70%;
+    margin: 0;
 }
 
 }
