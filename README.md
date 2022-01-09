@@ -1,6 +1,6 @@
 # Booki
 
-Projet 2 de la formation « Développeur web ». Le but est de transformer une maquette en site web avec HTML & CSS. 
+Le but du projet est de transformer une maquette en site web avec HTML & CSS. 
 Le site web est Booki, un outil de planification de vacances, permettent aux usagers de trouver des hébergements et des activités dans la ville de leur choix.
 
 ## Spécifications fonctionnelles :
